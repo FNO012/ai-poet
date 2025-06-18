@@ -1,0 +1,36 @@
+# 환경 변수 파일 (민감한 API 키 포함)
+.env
+
+# 가상 환경
+.venv/
+venv/
+ENV/
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 로컬 히스토리
+.history/
+
+# 빌드 디렉토리
+build/
+dist/
+*.egg-info/
+
+# 기타 임시 파일
+.DS_Store
+Thumbs.db
+
+# 주피터 노트북 체크포인트
+.ipynb_checkpoints/
